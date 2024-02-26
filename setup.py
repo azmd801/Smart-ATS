@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Energy-Behavior-prediction-of-Prosumers"
+REPO_NAME = "Smart-ATS"
 AUTHOR_USER_NAME = "azmd801"
-SRC_REPO = "energy_behavior_prediction"
+SRC_REPO = "smar_ATS"
 AUTHOR_EMAIL = "azmd801@gmail.com"
 
 setuptools.setup(
@@ -15,7 +15,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="This AI-powered App will find matching keywords between resume and job description and will provided additional keywords to improve ATS score",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
